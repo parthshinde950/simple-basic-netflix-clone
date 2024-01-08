@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar .nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-langauge-logo img {
+    position: absolute;
+    top: 37px;
+    right: 142px;
+}
+
+.netflix-logo img {
+    height: 100px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.nav-items .select-langauge-logo img {
+    height: 33px;
+    width: 116px;
+}
+
+.btn {
+    padding: 8px;
+    width: 7rem;
+    margin: 10px;
+    background: rgb(193, 17, 25);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-larger {
+    padding: 8px;
+    width: 9rem;
+    height: 2.7rem;
+    margin: 10px;
+    background: rgb(193, 17, 25);
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    font-weight:bolder;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav-bar::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0.550), rgba(0, 0, 0, 0.550)), url('showcase_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.header-content {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1.5rem;
+}
+
+.header-content input[type="search"] {
+    width: 380px;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.607);
+    border-radius: 5px;
+    font-size:1.2rem;
+    /* border-style: none; */
+    border-color: rgba(255, 255, 255, 0.348);
+}
+
+.showcase-container{
+    height:70vh;
+}
+
+.enjoy-tv-section{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.enjoy-tv-section .tv-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+}
+.enjoy-tv-section .tv-content .text{
+    margin-left:20px;
+}
+.enjoy-tv-section .tv-content .text h1{
+    font-size: 3rem;   
+}
+.enjoy-tv-section .tv-content .text h2{
+    font-size: 1.5rem;   
+}
+
+.QA{
+    border-bottom: 4px solid gray;
+}
+.QA .questions h1{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 45px ;
+    padding-bottom: 40px ;
+}
+
+.QA .questions h2 a{
+    display: block;
+    height: 5rem;
+    margin:15px;
+    background-color:rgba(128, 128, 128, 0.243);
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    padding:30px;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.QA .questions h2 a:hover{
+    background-color:rgba(128, 128, 128, 0.496);
+}
+
+.QA .questions h3{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.QA .questions .ready-section{
+    text-align: center;
+}
+
+.QA .questions .ready-section input[type="search"]{
+    margin: 20px;
+    width: 380px;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.087);
+    border-radius: 5px;
+    font-size:1.2rem;
+    /* border-style: none; */
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(0, 128, 0, 0.403);  
+} 
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.sec ul{
+    list-style: none;
+}
+.sec ul li{
+    padding:10px
+}
+
+footer h3{
+    padding:50px;
+    font-size: 1rem;
+}
+
+footer img{
+    height: 33px;
+    width: 116px;
+    margin-left: 164px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    border-style: none;
+}
